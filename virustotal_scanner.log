@@ -1,0 +1,247 @@
+2025-09-02 18:06:14,730 - INFO - VirusTotal Scanner GUI initialized
+2025-09-02 18:06:21,360 - INFO - Fetching report for resource: 44d88612fea8a8f36de82e1278abb02f
+2025-09-02 18:06:22,233 - INFO - Report fetched for 44d88612fea8a8f36de82e1278abb02f: Response code 1
+2025-09-02 18:06:23,756 - INFO - API key validated successfully
+2025-09-02 18:06:30,104 - INFO - Selected 45 files for scanning
+2025-09-02 18:06:31,901 - INFO - Started scanning 45 files
+2025-09-02 18:06:32,063 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/AdvancedPeripherals-1.20.1-0.7.45r.SOw6jD6x.jar
+2025-09-02 18:06:33,018 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/AdvancedPeripherals-1.20.1-0.7.45r.SOw6jD6x.jar: 579dac5d7a6551ad9218bc1e31aa830d50f30aec5c9c0414378c10d60ca46b54
+2025-09-02 18:06:43,020 - INFO - Fetching report for resource: 579dac5d7a6551ad9218bc1e31aa830d50f30aec5c9c0414378c10d60ca46b54
+2025-09-02 18:06:43,360 - INFO - Report fetched for 579dac5d7a6551ad9218bc1e31aa830d50f30aec5c9c0414378c10d60ca46b54: Response code 1
+2025-09-02 18:06:43,360 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:06:58,898 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/alternate_current-mc1.20-1.7.0.r0v8vy1s.jar
+2025-09-02 18:06:59,326 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/alternate_current-mc1.20-1.7.0.r0v8vy1s.jar: 9dfa5365ef170323612d6ada820b7cac12e05135f00f16d0f627488426f59565
+2025-09-02 18:07:09,327 - INFO - Fetching report for resource: 9dfa5365ef170323612d6ada820b7cac12e05135f00f16d0f627488426f59565
+2025-09-02 18:07:09,474 - ERROR - Network error fetching report for 9dfa5365ef170323612d6ada820b7cac12e05135f00f16d0f627488426f59565: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:07:09,475 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/alternate_current-mc1.20-1.7.0.r0v8vy1s.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:07:09,519 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/architectury-9.2.14-forge.lhGA9TYQ.jar
+2025-09-02 18:07:10,133 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/architectury-9.2.14-forge.lhGA9TYQ.jar: 218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af
+2025-09-02 18:07:20,134 - INFO - Fetching report for resource: 218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af
+2025-09-02 18:07:20,349 - INFO - Report fetched for 218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af: Response code 1
+2025-09-02 18:07:20,350 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:07:35,396 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/cbc_at_Forge_1.20.1_0.1.3b.pTfszyXD.jar
+2025-09-02 18:07:36,199 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/cbc_at_Forge_1.20.1_0.1.3b.pTfszyXD.jar: bb4c151208d4e7258b1cf402295c5809d12f63500a81089d6696a6a54c8c747f
+2025-09-02 18:07:46,202 - INFO - Fetching report for resource: bb4c151208d4e7258b1cf402295c5809d12f63500a81089d6696a6a54c8c747f
+2025-09-02 18:07:46,508 - INFO - Report fetched for bb4c151208d4e7258b1cf402295c5809d12f63500a81089d6696a6a54c8c747f: Response code 1
+2025-09-02 18:07:46,509 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:08:01,568 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/cbcmodernwarfare-0.0.6c+mc.1.20.1-forge.KL57SLEk.jar
+2025-09-02 18:08:02,537 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/cbcmodernwarfare-0.0.6c+mc.1.20.1-forge.KL57SLEk.jar: 7e3119dc9014f7dbf3bc291cae05b8c9fa897e36502fd8ceefb3a9be47dfab58
+2025-09-02 18:08:12,538 - INFO - Fetching report for resource: 7e3119dc9014f7dbf3bc291cae05b8c9fa897e36502fd8ceefb3a9be47dfab58
+2025-09-02 18:08:12,896 - INFO - Report fetched for 7e3119dc9014f7dbf3bc291cae05b8c9fa897e36502fd8ceefb3a9be47dfab58: Response code 1
+2025-09-02 18:08:12,897 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:08:27,929 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/cc_vs-1.20.1-forge-0.2.2.bvgy8HrZ.jar
+2025-09-02 18:08:29,048 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/cc_vs-1.20.1-forge-0.2.2.bvgy8HrZ.jar: 42b297e56911e4de78dad3c01a09e899a6e0292d5358a5ef4168bd4ce03b905b
+2025-09-02 18:08:39,052 - INFO - Fetching report for resource: 42b297e56911e4de78dad3c01a09e899a6e0292d5358a5ef4168bd4ce03b905b
+2025-09-02 18:08:39,384 - INFO - Report fetched for 42b297e56911e4de78dad3c01a09e899a6e0292d5358a5ef4168bd4ce03b905b: Response code 1
+2025-09-02 18:08:39,385 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:08:54,429 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/cc-tweaked-1.20.1-forge-1.116.1.gu7yAYhd.jar
+2025-09-02 18:08:57,587 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/cc-tweaked-1.20.1-forge-1.116.1.gu7yAYhd.jar: fffa7eac48606dbc9f8e88ddf6c09ef218f0004b42f165f5476b700788806c9e
+2025-09-02 18:09:07,589 - INFO - Fetching report for resource: fffa7eac48606dbc9f8e88ddf6c09ef218f0004b42f165f5476b700788806c9e
+2025-09-02 18:09:07,727 - ERROR - Network error fetching report for fffa7eac48606dbc9f8e88ddf6c09ef218f0004b42f165f5476b700788806c9e: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:09:07,728 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/cc-tweaked-1.20.1-forge-1.116.1.gu7yAYhd.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:09:07,790 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/clockwork-1.20.1-0.1.16-forge-b3b22e39fe.84USeAvk.jar
+2025-09-02 18:09:08,923 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/clockwork-1.20.1-0.1.16-forge-b3b22e39fe.84USeAvk.jar: cd50ac60bc88c24c9bcad8bdecba3e3c7c58561e9e96e41a42d990d0fc181e9e
+2025-09-02 18:09:18,926 - INFO - Fetching report for resource: cd50ac60bc88c24c9bcad8bdecba3e3c7c58561e9e96e41a42d990d0fc181e9e
+2025-09-02 18:09:19,151 - INFO - Report fetched for cd50ac60bc88c24c9bcad8bdecba3e3c7c58561e9e96e41a42d990d0fc181e9e: Response code 1
+2025-09-02 18:09:19,152 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:09:34,194 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/cloth-config-11.1.136-forge.9s6osm5g.jar
+2025-09-02 18:09:34,959 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/cloth-config-11.1.136-forge.9s6osm5g.jar: 1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2
+2025-09-02 18:09:44,961 - INFO - Fetching report for resource: 1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2
+2025-09-02 18:09:45,250 - INFO - Report fetched for 1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2: Response code 1
+2025-09-02 18:09:45,250 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:10:00,307 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/copycats-3.0.2+mc.1.20.1-forge.UT2M39wf.jar
+2025-09-02 18:10:01,023 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/copycats-3.0.2+mc.1.20.1-forge.UT2M39wf.jar: 1ab4f455cf1f3b46de8e2c9e896623528495e41803b92a7e8d5850aa9fe6b8e3
+2025-09-02 18:10:11,025 - INFO - Fetching report for resource: 1ab4f455cf1f3b46de8e2c9e896623528495e41803b92a7e8d5850aa9fe6b8e3
+2025-09-02 18:10:11,158 - ERROR - Network error fetching report for 1ab4f455cf1f3b46de8e2c9e896623528495e41803b92a7e8d5850aa9fe6b8e3: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:10:11,158 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/copycats-3.0.2+mc.1.20.1-forge.UT2M39wf.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:10:11,250 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/create_connected-1.1.7-mc1.20.1-all.Vg5TIO6d.jar
+2025-09-02 18:10:13,095 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/create_connected-1.1.7-mc1.20.1-all.Vg5TIO6d.jar: 0c511a206709c465bdb5471eaf72f70925c71a4f0b797d9f9ace84ae8f0b6f01
+2025-09-02 18:10:23,101 - INFO - Fetching report for resource: 0c511a206709c465bdb5471eaf72f70925c71a4f0b797d9f9ace84ae8f0b6f01
+2025-09-02 18:10:23,284 - INFO - Report fetched for 0c511a206709c465bdb5471eaf72f70925c71a4f0b797d9f9ace84ae8f0b6f01: Response code 1
+2025-09-02 18:10:23,285 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:10:38,341 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/create_radar-0.3.1+mc1.20.1-all.BLu2Yqfq.jar
+2025-09-02 18:10:39,798 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/create_radar-0.3.1+mc1.20.1-all.BLu2Yqfq.jar: 93174457fac53a46eb021181ee0c1e0a310591193e73fabe6c4550ed8e39367f
+2025-09-02 18:10:49,801 - INFO - Fetching report for resource: 93174457fac53a46eb021181ee0c1e0a310591193e73fabe6c4550ed8e39367f
+2025-09-02 18:10:50,067 - INFO - Report fetched for 93174457fac53a46eb021181ee0c1e0a310591193e73fabe6c4550ed8e39367f: Response code 1
+2025-09-02 18:10:50,068 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:10:51,675 - INFO - Opened VirusTotal report: https://www.virustotal.com/gui/file/Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:11:00,315 - INFO - Opened VirusTotal report: https://www.virustotal.com/gui/file/42b297e56911e4de78dad3c01a09e899a6e0292d5358a5ef4168bd4ce03b905b
+2025-09-02 18:11:05,109 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/create_tweaked_controllers-1.20.1-1.2.5.H6bJ8Ju4.jar
+2025-09-02 18:11:05,546 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/create_tweaked_controllers-1.20.1-1.2.5.H6bJ8Ju4.jar: c8a7468d9aff8f9101f275188a6f239fff49c2e94142fb33aa22e0df3ecf1297
+2025-09-02 18:11:15,547 - INFO - Fetching report for resource: c8a7468d9aff8f9101f275188a6f239fff49c2e94142fb33aa22e0df3ecf1297
+2025-09-02 18:11:15,776 - INFO - Report fetched for c8a7468d9aff8f9101f275188a6f239fff49c2e94142fb33aa22e0df3ecf1297: Response code 1
+2025-09-02 18:11:15,776 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:11:30,940 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/create-1.20.1-6.0.6.LNytGWDc.jar
+2025-09-02 18:11:35,328 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/create-1.20.1-6.0.6.LNytGWDc.jar: 6cb1e5b25e7d5fb670ef0713ca6da17525a1b9658e2a523fd76c2a32bbc0b2ed
+2025-09-02 18:11:45,334 - INFO - Fetching report for resource: 6cb1e5b25e7d5fb670ef0713ca6da17525a1b9658e2a523fd76c2a32bbc0b2ed
+2025-09-02 18:11:45,522 - INFO - Report fetched for 6cb1e5b25e7d5fb670ef0713ca6da17525a1b9658e2a523fd76c2a32bbc0b2ed: Response code 1
+2025-09-02 18:11:45,523 - INFO - Analysis complete: 0/48 detections, threat level: clean
+2025-09-02 18:12:00,565 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/createaddition-1.20.1-1.3.1.kU1G12Nn.jar
+2025-09-02 18:12:01,359 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/createaddition-1.20.1-1.3.1.kU1G12Nn.jar: 874660529d7e521f26af8a98bf95e630e15755ed9dec7a860bbd54f6a2865997
+2025-09-02 18:12:11,360 - INFO - Fetching report for resource: 874660529d7e521f26af8a98bf95e630e15755ed9dec7a860bbd54f6a2865997
+2025-09-02 18:12:11,489 - ERROR - Network error fetching report for 874660529d7e521f26af8a98bf95e630e15755ed9dec7a860bbd54f6a2865997: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:12:11,490 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/createaddition-1.20.1-1.3.1.kU1G12Nn.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:12:11,545 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/createbigcannons-5.9.1+mc.1.20.1-forge.GWp4jCJj.jar
+2025-09-02 18:12:13,071 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/createbigcannons-5.9.1+mc.1.20.1-forge.GWp4jCJj.jar: 37692afd831b3e4619cc3b0ac0299195f58bf7466365710bb1acc2d8461c262b
+2025-09-02 18:12:23,073 - INFO - Fetching report for resource: 37692afd831b3e4619cc3b0ac0299195f58bf7466365710bb1acc2d8461c262b
+2025-09-02 18:12:23,277 - INFO - Report fetched for 37692afd831b3e4619cc3b0ac0299195f58bf7466365710bb1acc2d8461c262b: Response code 1
+2025-09-02 18:12:23,277 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:12:38,317 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/createendertransmission-2.1.0-1.20.1.wtW8g4TG.jar
+2025-09-02 18:12:38,776 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/createendertransmission-2.1.0-1.20.1.wtW8g4TG.jar: 9fcd21a274ff545d1d33127edf9899f719a2ba332e5457e2bb5d523ff18853b2
+2025-09-02 18:12:48,777 - INFO - Fetching report for resource: 9fcd21a274ff545d1d33127edf9899f719a2ba332e5457e2bb5d523ff18853b2
+2025-09-02 18:12:49,140 - INFO - Report fetched for 9fcd21a274ff545d1d33127edf9899f719a2ba332e5457e2bb5d523ff18853b2: Response code 1
+2025-09-02 18:12:49,140 - INFO - Analysis complete: 0/63 detections, threat level: clean
+2025-09-02 18:13:04,176 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/createpropulsion-0.2.1.fmudhH0S.jar
+2025-09-02 18:13:04,719 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/createpropulsion-0.2.1.fmudhH0S.jar: ed409f13947b3f269592a85a82d1a1c7b516ef9d65309556cb5b4fa64eee6796
+2025-09-02 18:13:14,721 - INFO - Fetching report for resource: ed409f13947b3f269592a85a82d1a1c7b516ef9d65309556cb5b4fa64eee6796
+2025-09-02 18:13:14,931 - INFO - Report fetched for ed409f13947b3f269592a85a82d1a1c7b516ef9d65309556cb5b4fa64eee6796: Response code 1
+2025-09-02 18:13:14,931 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:13:30,040 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/CreateTankDefenses v0.80.21JTaupZ.jar
+2025-09-02 18:13:32,196 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/CreateTankDefenses v0.80.21JTaupZ.jar: eecf472173fa9ffdd73b5b17aefb4f2b7ca63dbfd9deba0bb34f0cf2172b208f
+2025-09-02 18:13:42,198 - INFO - Fetching report for resource: eecf472173fa9ffdd73b5b17aefb4f2b7ca63dbfd9deba0bb34f0cf2172b208f
+2025-09-02 18:13:42,397 - INFO - Report fetched for eecf472173fa9ffdd73b5b17aefb4f2b7ca63dbfd9deba0bb34f0cf2172b208f: Response code 1
+2025-09-02 18:13:42,398 - INFO - Analysis complete: 0/58 detections, threat level: clean
+2025-09-02 18:13:57,435 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/eureka-1201-1.5.1-beta.3.EO8aSHxh.jar
+2025-09-02 18:13:58,567 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/eureka-1201-1.5.1-beta.3.EO8aSHxh.jar: f790498b949be8c856722600e4361165c2e05bd218cfc9b498e2da5e39f775c1
+2025-09-02 18:14:08,568 - INFO - Fetching report for resource: f790498b949be8c856722600e4361165c2e05bd218cfc9b498e2da5e39f775c1
+2025-09-02 18:14:08,933 - ERROR - Network error fetching report for f790498b949be8c856722600e4361165c2e05bd218cfc9b498e2da5e39f775c1: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:14:08,934 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/eureka-1201-1.5.1-beta.3.EO8aSHxh.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:14:09,112 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/Fastload-Reforged-mc1.20.1-3.4.0.kCpssoSb.jar
+2025-09-02 18:14:09,552 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/Fastload-Reforged-mc1.20.1-3.4.0.kCpssoSb.jar: 038a5fa1c044d5afae22502ca1444eeb1a700d34a224996c25f233524ae35a7a
+2025-09-02 18:14:19,553 - INFO - Fetching report for resource: 038a5fa1c044d5afae22502ca1444eeb1a700d34a224996c25f233524ae35a7a
+2025-09-02 18:14:19,763 - INFO - Report fetched for 038a5fa1c044d5afae22502ca1444eeb1a700d34a224996c25f233524ae35a7a: Response code 1
+2025-09-02 18:14:19,764 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:14:34,803 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/ferritecore-6.0.1-forge.uXXizFIs.jar
+2025-09-02 18:14:35,459 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/ferritecore-6.0.1-forge.uXXizFIs.jar: 9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54
+2025-09-02 18:14:45,460 - INFO - Fetching report for resource: 9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54
+2025-09-02 18:14:46,077 - INFO - Report fetched for 9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54: Response code 1
+2025-09-02 18:14:46,078 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:15:01,126 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/geckolib-forge-1.20.1-4.7.4.8BmcQJ2H.jar
+2025-09-02 18:15:01,717 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/geckolib-forge-1.20.1-4.7.4.8BmcQJ2H.jar: 6ccdc4001520a098f0af16cebcabc2edde655a64ca39f7acd1e4c90e31bc5164
+2025-09-02 18:15:11,719 - INFO - Fetching report for resource: 6ccdc4001520a098f0af16cebcabc2edde655a64ca39f7acd1e4c90e31bc5164
+2025-09-02 18:15:11,879 - ERROR - Network error fetching report for 6ccdc4001520a098f0af16cebcabc2edde655a64ca39f7acd1e4c90e31bc5164: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:15:11,879 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/geckolib-forge-1.20.1-4.7.4.8BmcQJ2H.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:15:12,064 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/GPUTape-1.18x-1.21x-1.0.5.1.5CTSrY8X.jar
+2025-09-02 18:15:12,378 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/GPUTape-1.18x-1.21x-1.0.5.1.5CTSrY8X.jar: 73b92c4f1d4bf3a99320ae9f936698974cbee44caf278d3a349f172ec85dcb17
+2025-09-02 18:15:22,379 - INFO - Fetching report for resource: 73b92c4f1d4bf3a99320ae9f936698974cbee44caf278d3a349f172ec85dcb17
+2025-09-02 18:15:22,564 - INFO - Report fetched for 73b92c4f1d4bf3a99320ae9f936698974cbee44caf278d3a349f172ec85dcb17: Response code 1
+2025-09-02 18:15:22,565 - INFO - Analysis complete: 0/61 detections, threat level: clean
+2025-09-02 18:15:37,596 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/ImmediatelyFast-Forge-1.5.1+1.20.4.5ZwdcRci.jar
+2025-09-02 18:15:39,486 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/ImmediatelyFast-Forge-1.5.1+1.20.4.5ZwdcRci.jar: c59706b336c03c46330d4e7a6ee1b178242322c0670d190a1fe0a5570aa943e1
+2025-09-02 18:15:49,487 - INFO - Fetching report for resource: c59706b336c03c46330d4e7a6ee1b178242322c0670d190a1fe0a5570aa943e1
+2025-09-02 18:15:49,691 - INFO - Report fetched for c59706b336c03c46330d4e7a6ee1b178242322c0670d190a1fe0a5570aa943e1: Response code 1
+2025-09-02 18:15:49,691 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:16:04,803 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/kotlinforforge-4.11.0-all.ordsPcFz.jar
+2025-09-02 18:16:07,659 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/kotlinforforge-4.11.0-all.ordsPcFz.jar: ef988f86d170af499d147ea8a5c34c99dbd6d8f4a5ad236a4b43818dc4470a10
+2025-09-02 18:16:17,662 - INFO - Fetching report for resource: ef988f86d170af499d147ea8a5c34c99dbd6d8f4a5ad236a4b43818dc4470a10
+2025-09-02 18:16:17,959 - INFO - Report fetched for ef988f86d170af499d147ea8a5c34c99dbd6d8f4a5ad236a4b43818dc4470a10: Response code 1
+2025-09-02 18:16:17,960 - INFO - Analysis complete: 0/62 detections, threat level: clean
+2025-09-02 18:16:33,304 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/Ksyxis-1.3.4.2ecVyZ49.jar
+2025-09-02 18:16:33,806 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/Ksyxis-1.3.4.2ecVyZ49.jar: 7457f96dc1ef9f9c78307dba345e01ab8b8a0518a39fbb71d96e30abba888f0b
+2025-09-02 18:16:43,807 - INFO - Fetching report for resource: 7457f96dc1ef9f9c78307dba345e01ab8b8a0518a39fbb71d96e30abba888f0b
+2025-09-02 18:16:44,011 - INFO - Report fetched for 7457f96dc1ef9f9c78307dba345e01ab8b8a0518a39fbb71d96e30abba888f0b: Response code 1
+2025-09-02 18:16:44,012 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:16:59,057 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/memoryleakfix-forge-1.17+-1.1.5.NRjRiSSD.jar
+2025-09-02 18:16:59,532 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/memoryleakfix-forge-1.17+-1.1.5.NRjRiSSD.jar: 925c3db4e1d085a43c4d2beaa4eec18367c22abc90c2ce8594b8a129fd3f28dd
+2025-09-02 18:17:09,535 - INFO - Fetching report for resource: 925c3db4e1d085a43c4d2beaa4eec18367c22abc90c2ce8594b8a129fd3f28dd
+2025-09-02 18:17:10,181 - ERROR - Network error fetching report for 925c3db4e1d085a43c4d2beaa4eec18367c22abc90c2ce8594b8a129fd3f28dd: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:17:10,182 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/memoryleakfix-forge-1.17+-1.1.5.NRjRiSSD.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:17:10,239 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/modernfix-forge-5.24.4+mc1.20.1.nmDcB62a.jar
+2025-09-02 18:17:10,939 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/modernfix-forge-5.24.4+mc1.20.1.nmDcB62a.jar: 98d77cb29c718934b1d5d465d3725a0de4284bf3c8033d6553a7dd3b15956fe4
+2025-09-02 18:17:20,940 - INFO - Fetching report for resource: 98d77cb29c718934b1d5d465d3725a0de4284bf3c8033d6553a7dd3b15956fe4
+2025-09-02 18:17:21,152 - INFO - Report fetched for 98d77cb29c718934b1d5d465d3725a0de4284bf3c8033d6553a7dd3b15956fe4: Response code 1
+2025-09-02 18:17:21,152 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:17:36,202 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/MorePeripherals_1.20.1-1.13.0.7ACsQCnG.jar
+2025-09-02 18:17:37,022 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/MorePeripherals_1.20.1-1.13.0.7ACsQCnG.jar: 73f2bfb8755d867b05d2b8336fd3fba4f1ecb6e0c21ae23b4f4b1c00357cb9cc
+2025-09-02 18:17:47,023 - INFO - Fetching report for resource: 73f2bfb8755d867b05d2b8336fd3fba4f1ecb6e0c21ae23b4f4b1c00357cb9cc
+2025-09-02 18:17:47,223 - INFO - Report fetched for 73f2bfb8755d867b05d2b8336fd3fba4f1ecb6e0c21ae23b4f4b1c00357cb9cc: Response code 1
+2025-09-02 18:17:47,224 - INFO - Analysis complete: 0/63 detections, threat level: clean
+2025-09-02 18:18:02,264 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/noisium-forge-2.3.0+mc1.20-1.20.1.KuNKN7d2.jar
+2025-09-02 18:18:04,181 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/noisium-forge-2.3.0+mc1.20-1.20.1.KuNKN7d2.jar: b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c
+2025-09-02 18:18:14,183 - INFO - Fetching report for resource: b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c
+2025-09-02 18:18:14,395 - INFO - Report fetched for b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c: Response code 1
+2025-09-02 18:18:14,396 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:18:29,538 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/pointblank-forge-1.20.1-1.9.6.og4KPYmA.jar
+2025-09-02 18:18:34,182 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/pointblank-forge-1.20.1-1.9.6.og4KPYmA.jar: 10d6e6ffe6fe8fbf43e9f4b7ff9d39f0cd6287e0bb9a5ee2def69cb350c61792
+2025-09-02 18:18:44,186 - INFO - Fetching report for resource: 10d6e6ffe6fe8fbf43e9f4b7ff9d39f0cd6287e0bb9a5ee2def69cb350c61792
+2025-09-02 18:18:44,454 - INFO - Report fetched for 10d6e6ffe6fe8fbf43e9f4b7ff9d39f0cd6287e0bb9a5ee2def69cb350c61792: Response code 1
+2025-09-02 18:18:44,455 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:18:59,493 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/radium-mc1.20.1-0.12.4+git.26c9d8e.2gvRmQXx.jar
+2025-09-02 18:19:00,849 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/radium-mc1.20.1-0.12.4+git.26c9d8e.2gvRmQXx.jar: b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0
+2025-09-02 18:19:10,851 - INFO - Fetching report for resource: b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0
+2025-09-02 18:19:10,986 - ERROR - Network error fetching report for b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:19:10,987 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/radium-mc1.20.1-0.12.4+git.26c9d8e.2gvRmQXx.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:19:11,020 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/ritchiesprojectilelib-2.1.0+mc.1.20.1-forge.B3pb093D.jar
+2025-09-02 18:19:11,339 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/ritchiesprojectilelib-2.1.0+mc.1.20.1-forge.B3pb093D.jar: 0c9cff7514d059601b290d3e14e28fc373083092fccd436de1d64a747e6714b3
+2025-09-02 18:19:21,340 - INFO - Fetching report for resource: 0c9cff7514d059601b290d3e14e28fc373083092fccd436de1d64a747e6714b3
+2025-09-02 18:19:21,543 - INFO - Report fetched for 0c9cff7514d059601b290d3e14e28fc373083092fccd436de1d64a747e6714b3: Response code 1
+2025-09-02 18:19:21,544 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:19:36,601 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/servercore-forge-1.5.2+1.20.1.4WWQxlQP.jar
+2025-09-02 18:19:37,308 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/servercore-forge-1.5.2+1.20.1.4WWQxlQP.jar: d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586
+2025-09-02 18:19:47,310 - INFO - Fetching report for resource: d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586
+2025-09-02 18:19:47,504 - INFO - Report fetched for d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586: Response code 1
+2025-09-02 18:19:47,505 - INFO - Analysis complete: 0/58 detections, threat level: clean
+2025-09-02 18:20:02,569 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/spark-1.10.53-forge.l6YH9Als.jar
+2025-09-02 18:20:03,781 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/spark-1.10.53-forge.l6YH9Als.jar: eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed
+2025-09-02 18:20:13,782 - INFO - Fetching report for resource: eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed
+2025-09-02 18:20:14,045 - INFO - Report fetched for eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed: Response code 1
+2025-09-02 18:20:14,046 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:20:29,072 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/starlight-1.1.2+forge.1cda73c.iRfIGC1s.jar
+2025-09-02 18:20:29,512 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/starlight-1.1.2+forge.1cda73c.iRfIGC1s.jar: e90763c86d362c7cb427dbb70e89985c11a882fdd69ae7d04ac2e23a106eb500
+2025-09-02 18:20:39,513 - INFO - Fetching report for resource: e90763c86d362c7cb427dbb70e89985c11a882fdd69ae7d04ac2e23a106eb500
+2025-09-02 18:20:39,832 - INFO - Report fetched for e90763c86d362c7cb427dbb70e89985c11a882fdd69ae7d04ac2e23a106eb500: Response code 1
+2025-09-02 18:20:39,833 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:20:54,905 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/tfmg-1.0.2c.USgVjXsk.jar
+2025-09-02 18:20:56,321 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/tfmg-1.0.2c.USgVjXsk.jar: 3b168ef010cfc297e86891cd30d1e218e34b70d7952268d23a4e9daa18312002
+2025-09-02 18:21:06,323 - INFO - Fetching report for resource: 3b168ef010cfc297e86891cd30d1e218e34b70d7952268d23a4e9daa18312002
+2025-09-02 18:21:06,459 - ERROR - Network error fetching report for 3b168ef010cfc297e86891cd30d1e218e34b70d7952268d23a4e9daa18312002: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:21:06,459 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/tfmg-1.0.2c.USgVjXsk.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:21:06,501 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/toms_storage-1.20-1.7.1.XZNI4Cpy.jar
+2025-09-02 18:21:06,962 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/toms_storage-1.20-1.7.1.XZNI4Cpy.jar: 08552be86f960111e501227707dc089c91b8a55f6c1be09baee188338576ff9b
+2025-09-02 18:21:16,964 - INFO - Fetching report for resource: 08552be86f960111e501227707dc089c91b8a55f6c1be09baee188338576ff9b
+2025-09-02 18:21:17,248 - INFO - Report fetched for 08552be86f960111e501227707dc089c91b8a55f6c1be09baee188338576ff9b: Response code 1
+2025-09-02 18:21:17,249 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:21:32,298 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/toms-peripherals-1.20.1-1.3.0.ljgxd2P8.jar
+2025-09-02 18:21:33,516 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/toms-peripherals-1.20.1-1.3.0.ljgxd2P8.jar: eccefa33d840dfbe7f6fea2d5f81975edb840895089f1715a449e9241ba206c7
+2025-09-02 18:21:43,519 - INFO - Fetching report for resource: eccefa33d840dfbe7f6fea2d5f81975edb840895089f1715a449e9241ba206c7
+2025-09-02 18:21:43,708 - INFO - Report fetched for eccefa33d840dfbe7f6fea2d5f81975edb840895089f1715a449e9241ba206c7: Response code 1
+2025-09-02 18:21:43,708 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:21:58,750 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/tournament-1.20.1-forge-1.1.0_beta-5.3+af35b3821f.jIVvzR1C.jar
+2025-09-02 18:21:59,252 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/tournament-1.20.1-forge-1.1.0_beta-5.3+af35b3821f.jIVvzR1C.jar: d2bb51322abed1a97262cf639edd831e524b50b2089d1805f80307cfa113d413
+2025-09-02 18:22:09,253 - INFO - Fetching report for resource: d2bb51322abed1a97262cf639edd831e524b50b2089d1805f80307cfa113d413
+2025-09-02 18:22:09,385 - ERROR - Network error fetching report for d2bb51322abed1a97262cf639edd831e524b50b2089d1805f80307cfa113d413: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:22:09,385 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/tournament-1.20.1-forge-1.1.0_beta-5.3+af35b3821f.jIVvzR1C.jar: Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:22:09,413 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/trackwork-1.20.1-1.1.1b.FXDpZRJG.jar
+2025-09-02 18:22:09,985 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/trackwork-1.20.1-1.1.1b.FXDpZRJG.jar: d27b72824e2cfe329aaf5538d7f3d2142f9fc793b2f708f7a13d92b4a68f7837
+2025-09-02 18:22:19,986 - INFO - Fetching report for resource: d27b72824e2cfe329aaf5538d7f3d2142f9fc793b2f708f7a13d92b4a68f7837
+2025-09-02 18:22:20,256 - INFO - Report fetched for d27b72824e2cfe329aaf5538d7f3d2142f9fc793b2f708f7a13d92b4a68f7837: Response code 1
+2025-09-02 18:22:20,256 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-02 18:22:35,424 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/valkyrienskies-120-2.3.0-beta.9.V5ujR2yw.jar
+2025-09-02 18:22:39,848 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/valkyrienskies-120-2.3.0-beta.9.V5ujR2yw.jar: 7c4b354d5c08924caa582c3dd40ff5ac9690439201d2e3f441651318dcda5966
+2025-09-02 18:22:49,852 - INFO - Fetching report for resource: 7c4b354d5c08924caa582c3dd40ff5ac9690439201d2e3f441651318dcda5966
+2025-09-02 18:23:08,845 - ERROR - Network error fetching report for 7c4b354d5c08924caa582c3dd40ff5ac9690439201d2e3f441651318dcda5966: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-02 18:23:08,846 - ERROR - Error scanning C:/Users/antoi/AppData/Roaming/.minecraft/mods/valkyrienskies-120-2.3.0-beta.9.V5ujR2yw.jar: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-02 18:23:08,924 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/VMod-Forge-1.20.1-1.7.0.qS1ot7R2.jar
+2025-09-02 18:23:12,509 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/VMod-Forge-1.20.1-1.7.0.qS1ot7R2.jar: f864f632e18a519bfb16edcfee357d1a9e61ffc77c8c91932366b551c32ed5d7
+2025-09-02 18:23:22,512 - INFO - Fetching report for resource: f864f632e18a519bfb16edcfee357d1a9e61ffc77c8c91932366b551c32ed5d7
+2025-09-02 18:23:26,753 - INFO - Report fetched for f864f632e18a519bfb16edcfee357d1a9e61ffc77c8c91932366b551c32ed5d7: Response code 1
+2025-09-02 18:23:26,754 - INFO - Analysis complete: 0/65 detections, threat level: clean
+2025-09-02 18:23:41,884 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/Warium 1.1.0.xgjvEen1.jar
+2025-09-02 18:23:46,554 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/Warium 1.1.0.xgjvEen1.jar: e401e1f63c156f5c15ed069cceabe5a6da0485202664d3098b25744d62902672
+2025-09-02 18:23:56,557 - INFO - Fetching report for resource: e401e1f63c156f5c15ed069cceabe5a6da0485202664d3098b25744d62902672
+2025-09-02 18:23:56,795 - INFO - Report fetched for e401e1f63c156f5c15ed069cceabe5a6da0485202664d3098b25744d62902672: Response code 1
+2025-09-02 18:23:56,795 - INFO - Analysis complete: 0/58 detections, threat level: clean
+2025-09-02 18:24:07,482 - INFO - Scan completed: 34 files scanned, 0 threats detected
+2025-09-02 18:25:42,371 - INFO - Opened VirusTotal report: https://www.virustotal.com/gui/file/Expecting value: line 1 column 1 (char 0)
+2025-09-02 18:39:07,983 - INFO - VTBatch GUI initialized
+2025-09-02 18:39:15,053 - INFO - Fetching report for resource: 44d88612fea8a8f36de82e1278abb02f
+2025-09-02 18:39:16,038 - INFO - Report fetched for 44d88612fea8a8f36de82e1278abb02f: Response code 1
+2025-09-02 18:39:17,343 - INFO - API key validated successfully
+2025-09-02 18:39:22,645 - INFO - Selected 1 files for scanning
+2025-09-02 18:39:24,480 - INFO - Started scanning 1 files
+2025-09-02 18:39:24,482 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/alternate_current-mc1.20-1.7.0.r0v8vy1s.jar
+2025-09-02 18:39:24,909 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/alternate_current-mc1.20-1.7.0.r0v8vy1s.jar: 9dfa5365ef170323612d6ada820b7cac12e05135f00f16d0f627488426f59565
+2025-09-02 18:39:34,910 - INFO - Fetching report for resource: 9dfa5365ef170323612d6ada820b7cac12e05135f00f16d0f627488426f59565
+2025-09-02 18:39:35,122 - INFO - Report fetched for 9dfa5365ef170323612d6ada820b7cac12e05135f00f16d0f627488426f59565: Response code 1
+2025-09-02 18:39:35,123 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-02 18:39:36,901 - INFO - Scan completed: 1 files scanned, 0 threats detected
