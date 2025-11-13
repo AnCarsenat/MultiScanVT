@@ -21,6 +21,7 @@ import logging
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple
 import queue
+from pathlib import Path
 
 # Configure logging
 logging.basicConfig(
@@ -33,6 +34,68 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+class ConfigManager:
+    """Manage application configuration including API key storage."""
+    
+    def __init__(self):
+        self.config_dir = Path.home() / '.vtbatch'
+        self.config_file = self.config_dir / 'config.json'
+        self.config_dir.mkdir(exist_ok=True)
+        
+    def save_api_key(self, api_key: str) -> bool:
+        """Save API key to config file."""
+        try:
+            config = self.load_config()
+            config['api_key'] = api_key
+            
+            with open(self.config_file, 'w') as f:
+                json.dump(config, f, indent=2)
+            
+            # Set restrictive permissions (Unix-like systems only)
+            if os.name != 'nt':  # Not Windows
+                os.chmod(self.config_file, 0o600)
+            
+            logger.info("API key saved successfully")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to save API key: {e}")
+            return False
+    
+    def load_api_key(self) -> Optional[str]:
+        """Load API key from config file."""
+        try:
+            config = self.load_config()
+            return config.get('api_key')
+        except Exception as e:
+            logger.error(f"Failed to load API key: {e}")
+            return None
+    
+    def load_config(self) -> Dict:
+        """Load entire configuration."""
+        if not self.config_file.exists():
+            return {}
+        
+        try:
+            with open(self.config_file, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Failed to load config: {e}")
+            return {}
+    
+    def clear_api_key(self) -> bool:
+        """Clear saved API key."""
+        try:
+            config = self.load_config()
+            if 'api_key' in config:
+                del config['api_key']
+                with open(self.config_file, 'w') as f:
+                    json.dump(config, f, indent=2)
+            logger.info("API key cleared")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to clear API key: {e}")
+            return False
+
 class VirusTotalAPI:
     """VirusTotal API wrapper for file scanning and reporting."""
     
@@ -40,7 +103,7 @@ class VirusTotalAPI:
         self.api_key = api_key
         self.base_url = "https://www.virustotal.com/vtapi/v2"
         self.session = requests.Session()
-        self.session.headers.update({'User-Agent': 'VirusTotal-Python-Scanner/1.0'})
+        self.session.headers.update({'User-Agent': 'VirusTotal-Python-Scanner/1.1'})
         
     def scan_file(self, file_path: str) -> Dict:
         """Upload and scan a file."""
@@ -226,6 +289,9 @@ class VirusTotalGUI:
         self.root.geometry("1000x700")
         self.root.minsize(800, 600)
         
+        # Configuration manager
+        self.config_manager = ConfigManager()
+        
         # Application state
         self.api = None
         self.files_to_scan = []
@@ -236,6 +302,9 @@ class VirusTotalGUI:
         
         self.setup_gui()
         self.setup_logging()
+        
+        # Load saved API key
+        self.load_saved_api_key()
         
         # Start message processor
         self.process_messages()
@@ -270,11 +339,31 @@ class VirusTotalGUI:
         api_frame.pack(fill=tk.X, padx=10, pady=5)
         
         ttk.Label(api_frame, text="VirusTotal API Key:").pack(anchor=tk.W)
-        self.api_key_var = tk.StringVar()
-        self.api_key_entry = ttk.Entry(api_frame, textvariable=self.api_key_var, show="*", width=50)
-        self.api_key_entry.pack(fill=tk.X, pady=5)
         
-        ttk.Button(api_frame, text="Test API Key", command=self.test_api_key).pack(anchor=tk.W)
+        # API key entry with save checkbox
+        key_frame = ttk.Frame(api_frame)
+        key_frame.pack(fill=tk.X, pady=5)
+        
+        self.api_key_var = tk.StringVar()
+        self.api_key_entry = ttk.Entry(key_frame, textvariable=self.api_key_var, show="*", width=50)
+        self.api_key_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        
+        # Save API key checkbox
+        self.save_api_key_var = tk.BooleanVar(value=False)
+        self.save_key_check = ttk.Checkbutton(
+            key_frame, 
+            text="Save", 
+            variable=self.save_api_key_var,
+            command=self.toggle_save_api_key
+        )
+        self.save_key_check.pack(side=tk.LEFT, padx=(10, 0))
+        
+        # Button frame
+        button_frame = ttk.Frame(api_frame)
+        button_frame.pack(fill=tk.X, pady=(5, 0))
+        
+        ttk.Button(button_frame, text="Test API Key", command=self.test_api_key).pack(side=tk.LEFT, padx=(0, 10))
+        ttk.Button(button_frame, text="Clear Saved Key", command=self.clear_saved_api_key).pack(side=tk.LEFT)
         
         # File selection section
         files_frame = ttk.LabelFrame(self.scanner_frame, text="File Selection", padding="10")
@@ -386,6 +475,37 @@ class VirusTotalGUI:
         gui_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
         logger.addHandler(gui_handler)
     
+    def load_saved_api_key(self):
+        """Load saved API key from config."""
+        api_key = self.config_manager.load_api_key()
+        if api_key:
+            self.api_key_var.set(api_key)
+            self.save_api_key_var.set(True)
+            logger.info("Loaded saved API key")
+    
+    def toggle_save_api_key(self):
+        """Handle save API key checkbox toggle."""
+        if self.save_api_key_var.get():
+            api_key = self.api_key_var.get().strip()
+            if api_key:
+                if self.config_manager.save_api_key(api_key):
+                    self.status_var.set("API key saved")
+                else:
+                    self.save_api_key_var.set(False)
+                    messagebox.showerror("Error", "Failed to save API key")
+        else:
+            self.config_manager.clear_api_key()
+            self.status_var.set("API key not saved")
+    
+    def clear_saved_api_key(self):
+        """Clear the saved API key."""
+        if messagebox.askyesno("Confirm", "Clear the saved API key from configuration?"):
+            if self.config_manager.clear_api_key():
+                self.save_api_key_var.set(False)
+                messagebox.showinfo("Success", "Saved API key cleared")
+            else:
+                messagebox.showerror("Error", "Failed to clear saved API key")
+    
     def process_messages(self):
         """Process messages from background threads."""
         try:
@@ -435,6 +555,10 @@ class VirusTotalGUI:
                 messagebox.showinfo("Success", "API key is valid!")
                 self.api = test_api
                 logger.info("API key validated successfully")
+                
+                # Save if checkbox is checked
+                if self.save_api_key_var.get():
+                    self.config_manager.save_api_key(api_key)
                 
         except Exception as e:
             messagebox.showerror("Error", f"Failed to validate API key: {e}")
@@ -519,8 +643,8 @@ class VirusTotalGUI:
                     upload_result = self.api.scan_file(file_path)
                     resource = upload_result.get('resource', sha256)
                     
-                    # Wait for analysis (VirusTotal needs time to process)
-                    time.sleep(10)  # Wait before checking report
+                    # Wait for analysis
+                    time.sleep(10)
                     
                     # Get report with retry logic
                     max_retries = 3
@@ -533,7 +657,7 @@ class VirusTotalGUI:
                             else:
                                 logger.warning(f"Report error (attempt {retry + 1}): {report.get('error')}")
                                 if retry < max_retries - 1:
-                                    time.sleep(5)  # Wait before retry
+                                    time.sleep(5)
                         except Exception as e:
                             logger.error(f"Report fetch attempt {retry + 1} failed: {e}")
                             if retry < max_retries - 1:
@@ -541,7 +665,6 @@ class VirusTotalGUI:
                             else:
                                 report = {'error': f'Failed after {max_retries} attempts: {str(e)}'}
                     
-                    # Handle report errors
                     if report and 'error' in report:
                         error_result = {
                             'file_path': file_path,
@@ -569,13 +692,12 @@ class VirusTotalGUI:
                     self.scan_results[file_path] = result_data
                     self.message_queue.put(('result', result_data))
                     
-                    # Check for threats
                     if analysis['is_suspicious'] and analysis['detections'] > 1:
                         self.message_queue.put(('threat_warning', result_data))
                     
-                    # Rate limiting - 4 requests per minute for free accounts
+                    # Rate limiting
                     if i < total_files - 1:
-                        time.sleep(15)  # 15 seconds between scans
+                        time.sleep(15)
                         
                 except Exception as e:
                     logger.error(f"Error scanning {file_path}: {e}")
@@ -592,13 +714,12 @@ class VirusTotalGUI:
         except Exception as e:
             logger.error(f"Scanning thread error: {e}")
             self.message_queue.put(('status', f'Scan error: {e}'))
-        
+    
     def update_results_display(self, result_data):
         """Update the results tree with scan results."""
         filename = result_data.get('filename', 'Unknown')
         
         if 'error' in result_data:
-            # Error case
             self.results_tree.insert('', tk.END, values=(
                 filename,
                 'Error',
@@ -611,7 +732,6 @@ class VirusTotalGUI:
             detections = f"{analysis.get('detections', 0)}/{analysis.get('total_scans', 0)}"
             threat_level = analysis.get('threat_level', 'Unknown').replace('_', ' ').title()
             
-            # Color code threat levels
             item_id = self.results_tree.insert('', tk.END, values=(
                 filename,
                 'Complete',
@@ -620,7 +740,6 @@ class VirusTotalGUI:
                 result_data.get('sha256', 'Unknown')
             ))
             
-            # Apply color coding
             if analysis.get('threat_level') in ['high_risk', 'medium_risk']:
                 self.results_tree.set(item_id, 'Threat Level', f"⚠️ {threat_level}")
             elif analysis.get('threat_level') == 'suspicious':
@@ -655,7 +774,6 @@ class VirusTotalGUI:
         self.stop_button.config(state=tk.DISABLED)
         self.message_queue.put(('status', 'Scan completed'))
         
-        # Show summary
         total_scanned = len([r for r in self.scan_results.values() if 'analysis' in r])
         total_threats = len([r for r in self.scan_results.values() 
                            if 'analysis' in r and r['analysis'].get('is_suspicious')])
@@ -693,6 +811,16 @@ class VirusTotalGUI:
         else:
             messagebox.showerror("Error", "No hash available for this file")
     
+    def open_virustotal_report(self, sha256: str):
+        """Open VirusTotal report in web browser."""
+        url = f"https://www.virustotal.com/gui/file/{sha256}"
+        try:
+            webbrowser.open(url)
+            logger.info(f"Opened VirusTotal report: {url}")
+        except Exception as e:
+            logger.error(f"Failed to open browser: {e}")
+            messagebox.showerror("Error", f"Failed to open browser: {e}")
+    
     def rescan_selected_file(self):
         """Rescan the selected file in the results."""
         selection = self.results_tree.selection()
@@ -713,7 +841,6 @@ class VirusTotalGUI:
             messagebox.showerror("Error", "No hash available for this file - cannot rescan")
             return
             
-        # Find the original file data
         file_data = None
         for path, result in self.scan_results.items():
             if result.get('filename') == filename:
@@ -724,7 +851,6 @@ class VirusTotalGUI:
             messagebox.showerror("Error", "Could not find original scan data for this file")
             return
             
-        # Confirm rescan
         confirm = messagebox.askyesno(
             "Confirm Rescan", 
             f"Request a fresh scan of '{filename}' from VirusTotal?\n\n"
@@ -734,7 +860,6 @@ class VirusTotalGUI:
         if not confirm:
             return
             
-        # Start rescan in background thread
         rescan_thread = threading.Thread(
             target=self.rescan_file_thread, 
             args=(file_data, item), 
@@ -742,7 +867,6 @@ class VirusTotalGUI:
         )
         rescan_thread.start()
         
-        # Update UI to show rescanning
         self.results_tree.set(item, 'Status', 'Rescanning...')
         logger.info(f"Started rescan for {filename}")
     
@@ -754,7 +878,6 @@ class VirusTotalGUI:
             
             self.message_queue.put(('status', f'Requesting rescan of {filename}...'))
             
-            # Request rescan
             rescan_result = self.api.rescan_file(resource)
             
             if 'error' in rescan_result:
@@ -762,11 +885,9 @@ class VirusTotalGUI:
                 self.message_queue.put(('rescan_complete', {'item': tree_item, 'status': 'Error', 'error': True}))
                 return
             
-            # Wait longer for rescan to complete
             self.message_queue.put(('status', f'Waiting for {filename} rescan to complete...'))
-            time.sleep(30)  # Wait 30 seconds for rescan to process
+            time.sleep(30)
             
-            # Fetch updated report
             max_attempts = 5
             updated_report = None
             
@@ -775,20 +896,18 @@ class VirusTotalGUI:
                     updated_report = self.api.get_report(resource)
                     
                     if 'error' not in updated_report and updated_report.get('response_code') == 1:
-                        # Check if scan_date is recent (within last hour)
                         scan_date = updated_report.get('scan_date', '')
                         if scan_date:
                             try:
                                 from datetime import datetime, timedelta
                                 scan_time = datetime.strptime(scan_date, '%Y-%m-%d %H:%M:%S')
                                 if datetime.now() - scan_time < timedelta(hours=1):
-                                    break  # Recent scan found
+                                    break
                             except:
-                                pass  # Continue if date parsing fails
+                                pass
                     
-                    # Wait before next attempt
                     if attempt < max_attempts - 1:
-                        time.sleep(20)  # Wait 20 seconds between attempts
+                        time.sleep(20)
                         
                 except Exception as e:
                     logger.error(f"Error fetching updated report (attempt {attempt + 1}): {e}")
@@ -801,15 +920,12 @@ class VirusTotalGUI:
                 self.message_queue.put(('rescan_complete', {'item': tree_item, 'status': 'Error', 'error': True}))
                 return
             
-            # Analyze new results
             scanner = FileScanner(self.api)
             new_analysis = scanner.analyze_results(updated_report)
             
-            # Update stored results
             file_data['report'] = updated_report
             file_data['analysis'] = new_analysis
             
-            # Prepare update data
             update_data = {
                 'item': tree_item,
                 'filename': filename,
@@ -821,7 +937,6 @@ class VirusTotalGUI:
             
             self.message_queue.put(('rescan_complete', update_data))
             
-            # Check for new threats
             if new_analysis['is_suspicious'] and new_analysis['detections'] > 1:
                 self.message_queue.put(('threat_warning', file_data))
             
@@ -843,14 +958,12 @@ class VirusTotalGUI:
         analysis = update_data['analysis']
         filename = update_data['filename']
         
-        # Update tree values
         detections = f"{analysis['detections']}/{analysis['total_scans']}"
         threat_level = analysis['threat_level'].replace('_', ' ').title()
         
         self.results_tree.set(item, 'Status', 'Complete')
         self.results_tree.set(item, 'Detections', detections)
         
-        # Apply color coding
         if analysis['threat_level'] in ['high_risk', 'medium_risk']:
             self.results_tree.set(item, 'Threat Level', f"⚠️ {threat_level}")
         elif analysis['threat_level'] == 'suspicious':
@@ -862,21 +975,12 @@ class VirusTotalGUI:
             
         self.message_queue.put(('status', f'Rescan completed for {filename}'))
         
-        # Show notification
         messagebox.showinfo(
             "Rescan Complete", 
             f"Rescan completed for '{filename}'\n\n"
             f"New results: {detections} detections\n"
             f"Threat level: {threat_level}"
         )
-        """Open VirusTotal report in web browser."""
-        url = f"https://www.virustotal.com/gui/file/{sha256}"
-        try:
-            webbrowser.open(url)
-            logger.info(f"Opened VirusTotal report: {url}")
-        except Exception as e:
-            logger.error(f"Failed to open browser: {e}")
-            messagebox.showerror("Error", f"Failed to open browser: {e}")
     
     def export_results(self):
         """Export scan results to JSON file."""
@@ -891,7 +995,6 @@ class VirusTotalGUI:
         
         if file_path:
             try:
-                # Prepare export data
                 export_data = {
                     'scan_date': datetime.now().isoformat(),
                     'total_files': len(self.scan_results),

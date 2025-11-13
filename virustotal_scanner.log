@@ -1,0 +1,378 @@
+2025-09-06 16:18:16,638 - INFO - VTBatch GUI initialized
+2025-09-06 16:18:36,525 - INFO - Fetching report for resource: 44d88612fea8a8f36de82e1278abb02f
+2025-09-06 16:18:38,215 - INFO - Report fetched for 44d88612fea8a8f36de82e1278abb02f: Response code 1
+2025-09-06 16:18:40,435 - INFO - API key validated successfully
+2025-09-06 16:18:48,288 - INFO - Selected 22 files for scanning
+2025-09-06 16:18:50,262 - INFO - Started scanning 22 files
+2025-09-06 16:18:50,368 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/appleskin-fabric-mc1.21.6-3.0.6.jar
+2025-09-06 16:18:51,317 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/appleskin-fabric-mc1.21.6-3.0.6.jar: b82abe586851ba6dbb9bcd4d9270fbddcd519e855ea7bffe933ed45ab5158e21
+2025-09-06 16:19:01,319 - INFO - Fetching report for resource: b82abe586851ba6dbb9bcd4d9270fbddcd519e855ea7bffe933ed45ab5158e21
+2025-09-06 16:19:01,498 - INFO - Report fetched for b82abe586851ba6dbb9bcd4d9270fbddcd519e855ea7bffe933ed45ab5158e21: Response code 1
+2025-09-06 16:19:01,499 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-06 16:19:16,538 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/bettercommandblockui-0.5.3-1.21.7.jar
+2025-09-06 16:19:17,052 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/bettercommandblockui-0.5.3-1.21.7.jar: c1430f7fa12f4c315d9ba4a8d40c564e205b81b5d5deba27d8c0110c16e8baf9
+2025-09-06 16:19:27,053 - INFO - Fetching report for resource: c1430f7fa12f4c315d9ba4a8d40c564e205b81b5d5deba27d8c0110c16e8baf9
+2025-09-06 16:19:27,274 - INFO - Report fetched for c1430f7fa12f4c315d9ba4a8d40c564e205b81b5d5deba27d8c0110c16e8baf9: Response code 1
+2025-09-06 16:19:27,274 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-09-06 16:19:42,352 - INFO - Uploading file: C:/Users/antoi/AppData/Roaming/.minecraft/mods/fabric-api-0.128.1+1.21.7.jar
+2025-09-06 16:19:43,311 - INFO - Upload successful for C:/Users/antoi/AppData/Roaming/.minecraft/mods/fabric-api-0.128.1+1.21.7.jar: 04729f23a915a190f3269dcdafd49e9cc75d3c35ff0bbd1769376dcff547751f
+2025-09-06 16:19:53,312 - INFO - Fetching report for resource: 04729f23a915a190f3269dcdafd49e9cc75d3c35ff0bbd1769376dcff547751f
+2025-09-06 16:19:53,638 - INFO - Report fetched for 04729f23a915a190f3269dcdafd49e9cc75d3c35ff0bbd1769376dcff547751f: Response code 1
+2025-09-06 16:19:53,638 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-09-06 16:19:58,580 - INFO - Scan stopped by user
+2025-09-20 19:12:12,642 - INFO - VTBatch GUI initialized
+2025-09-20 19:12:30,054 - INFO - Fetching report for resource: 44d88612fea8a8f36de82e1278abb02f
+2025-09-20 19:12:31,318 - INFO - Report fetched for 44d88612fea8a8f36de82e1278abb02f: Response code 1
+2025-09-20 19:12:32,449 - INFO - API key validated successfully
+2025-09-20 19:12:42,318 - INFO - Selected 11 files for scanning
+2025-09-20 19:12:47,318 - INFO - Selected 1 files for scanning
+2025-09-20 19:12:48,793 - INFO - Started scanning 12 files
+2025-09-20 19:12:48,808 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/attribution.txt
+2025-09-20 19:12:49,161 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/attribution.txt: ef6313b7e8ea892a78d766c4c1a53fc391f14819571c6ef2d6c85af72f6548d7
+2025-09-20 19:12:59,162 - INFO - Fetching report for resource: ef6313b7e8ea892a78d766c4c1a53fc391f14819571c6ef2d6c85af72f6548d7
+2025-09-20 19:12:59,474 - INFO - Report fetched for ef6313b7e8ea892a78d766c4c1a53fc391f14819571c6ef2d6c85af72f6548d7: Response code 1
+2025-09-20 19:12:59,475 - INFO - Analysis complete: 0/62 detections, threat level: clean
+2025-09-20 19:13:14,494 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/config.json
+2025-09-20 19:13:14,808 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/config.json: 3d4a2fe05f2c6b4f239542ffb419a672cb3e440c7b0bb445d54f4f0ad4aa0e0c
+2025-09-20 19:13:24,908 - INFO - Fetching report for resource: 3d4a2fe05f2c6b4f239542ffb419a672cb3e440c7b0bb445d54f4f0ad4aa0e0c
+2025-09-20 19:13:25,162 - INFO - Report fetched for 3d4a2fe05f2c6b4f239542ffb419a672cb3e440c7b0bb445d54f4f0ad4aa0e0c: Response code 1
+2025-09-20 19:13:25,162 - INFO - Analysis complete: 0/60 detections, threat level: clean
+2025-09-20 19:13:40,163 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/externalactives
+2025-09-20 19:13:40,612 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/externalactives: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-20 19:13:50,613 - INFO - Fetching report for resource: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-20 19:13:51,333 - INFO - Report fetched for e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855: Response code 1
+2025-09-20 19:13:51,333 - INFO - Analysis complete: 0/61 detections, threat level: clean
+2025-09-20 19:14:06,931 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/Galaxy64.dll
+2025-09-20 19:14:10,908 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/Galaxy64.dll: 9a45c55d622585ec6b72bf33c5ac322f2ccc1de2ff785ac1fc1230bd90c847d0
+2025-09-20 19:14:20,910 - INFO - Fetching report for resource: 9a45c55d622585ec6b72bf33c5ac322f2ccc1de2ff785ac1fc1230bd90c847d0
+2025-09-20 19:14:21,173 - INFO - Report fetched for 9a45c55d622585ec6b72bf33c5ac322f2ccc1de2ff785ac1fc1230bd90c847d0: Response code 1
+2025-09-20 19:14:21,174 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-09-20 19:14:36,184 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/GalaxyCSharp.dll
+2025-09-20 19:14:36,782 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/GalaxyCSharp.dll: d8b4405d9924be0cd78d8b0cd2e436ffff57e7578a78a97dc6fa8137958b22b0
+2025-09-20 19:14:46,782 - INFO - Fetching report for resource: d8b4405d9924be0cd78d8b0cd2e436ffff57e7578a78a97dc6fa8137958b22b0
+2025-09-20 19:14:48,591 - INFO - Report fetched for d8b4405d9924be0cd78d8b0cd2e436ffff57e7578a78a97dc6fa8137958b22b0: Response code 1
+2025-09-20 19:14:48,592 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-09-20 19:15:03,717 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/GalaxyCSharpGlue.dll
+2025-09-20 19:15:04,499 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/GalaxyCSharpGlue.dll: c457b6650468fc8a8050e93eff63cd83626345c17b6b63ec453646718b57d7ca
+2025-09-20 19:15:14,501 - INFO - Fetching report for resource: c457b6650468fc8a8050e93eff63cd83626345c17b6b63ec453646718b57d7ca
+2025-09-20 19:15:14,635 - WARNING - Unexpected content type: text/html
+2025-09-20 19:15:14,635 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-09-20 19:15:19,637 - INFO - Fetching report for resource: c457b6650468fc8a8050e93eff63cd83626345c17b6b63ec453646718b57d7ca
+2025-09-20 19:15:19,901 - INFO - Report fetched for c457b6650468fc8a8050e93eff63cd83626345c17b6b63ec453646718b57d7ca: Response code 1
+2025-09-20 19:15:19,902 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-09-20 19:15:34,910 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/People Playground.exe
+2025-09-20 19:15:35,644 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/People Playground.exe: 93d8dfb94ade06c2d7d4ca47add7d6881ff70453016cc8d1cd14537cc86c06a8
+2025-09-20 19:15:45,644 - INFO - Fetching report for resource: 93d8dfb94ade06c2d7d4ca47add7d6881ff70453016cc8d1cd14537cc86c06a8
+2025-09-20 19:15:45,850 - INFO - Report fetched for 93d8dfb94ade06c2d7d4ca47add7d6881ff70453016cc8d1cd14537cc86c06a8: Response code 1
+2025-09-20 19:15:45,850 - INFO - Analysis complete: 0/71 detections, threat level: clean
+2025-09-20 19:16:00,871 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/resetConfig.bat
+2025-09-20 19:16:01,212 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/resetConfig.bat: 3b703541a530ebb0aae9c5e891f6aac624eb97967abb42d29be96f34dd992ce5
+2025-09-20 19:16:11,212 - INFO - Fetching report for resource: 3b703541a530ebb0aae9c5e891f6aac624eb97967abb42d29be96f34dd992ce5
+2025-09-20 19:16:11,350 - WARNING - Unexpected content type: text/html
+2025-09-20 19:16:11,350 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-09-20 19:16:16,356 - INFO - Fetching report for resource: 3b703541a530ebb0aae9c5e891f6aac624eb97967abb42d29be96f34dd992ce5
+2025-09-20 19:16:16,491 - WARNING - Unexpected content type: text/html
+2025-09-20 19:16:16,492 - WARNING - Report error (attempt 2): Unexpected response format: text/html
+2025-09-20 19:16:21,498 - INFO - Fetching report for resource: 3b703541a530ebb0aae9c5e891f6aac624eb97967abb42d29be96f34dd992ce5
+2025-09-20 19:16:21,867 - INFO - Report fetched for 3b703541a530ebb0aae9c5e891f6aac624eb97967abb42d29be96f34dd992ce5: Response code 1
+2025-09-20 19:16:21,867 - INFO - Analysis complete: 1/51 detections, threat level: suspicious
+2025-09-20 19:16:36,873 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/steam_appid.txt
+2025-09-20 19:16:37,223 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/steam_appid.txt: 48baff141f9fa70af082397347a768cf95b010e65d6c1f42b0008378cb9373e2
+2025-09-20 19:16:47,224 - INFO - Fetching report for resource: 48baff141f9fa70af082397347a768cf95b010e65d6c1f42b0008378cb9373e2
+2025-09-20 19:16:47,563 - INFO - Report fetched for 48baff141f9fa70af082397347a768cf95b010e65d6c1f42b0008378cb9373e2: Response code 1
+2025-09-20 19:16:47,563 - INFO - Analysis complete: 1/62 detections, threat level: suspicious
+2025-09-20 19:17:02,753 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/UnityCrashHandler64.exe
+2025-09-20 19:17:03,358 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/UnityCrashHandler64.exe: e72ccaef674227566d7788d80916abe8e50132e242019032d71c9402fec1b9cd
+2025-09-20 19:17:13,359 - INFO - Fetching report for resource: e72ccaef674227566d7788d80916abe8e50132e242019032d71c9402fec1b9cd
+2025-09-20 19:17:13,510 - WARNING - Unexpected content type: text/html
+2025-09-20 19:17:13,510 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-09-20 19:17:18,512 - INFO - Fetching report for resource: e72ccaef674227566d7788d80916abe8e50132e242019032d71c9402fec1b9cd
+2025-09-20 19:17:18,650 - WARNING - Unexpected content type: text/html
+2025-09-20 19:17:18,650 - WARNING - Report error (attempt 2): Unexpected response format: text/html
+2025-09-20 19:17:23,653 - INFO - Fetching report for resource: e72ccaef674227566d7788d80916abe8e50132e242019032d71c9402fec1b9cd
+2025-09-20 19:17:24,007 - INFO - Report fetched for e72ccaef674227566d7788d80916abe8e50132e242019032d71c9402fec1b9cd: Response code 1
+2025-09-20 19:17:24,007 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-09-20 19:17:39,340 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/UnityPlayer.dll
+2025-09-20 19:17:45,905 - INFO - Upload successful for D:/Users/antoi/Downloads/People-Playground-SteamRIP.com/People Playground/UnityPlayer.dll: 9223c1ca5094309e110392e5370f13ee5187d5a0ec0a06124acb6d30c26b0011
+2025-09-20 19:17:55,910 - INFO - Fetching report for resource: 9223c1ca5094309e110392e5370f13ee5187d5a0ec0a06124acb6d30c26b0011
+2025-09-20 19:17:56,154 - INFO - Report fetched for 9223c1ca5094309e110392e5370f13ee5187d5a0ec0a06124acb6d30c26b0011: Response code 1
+2025-09-20 19:17:56,154 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-09-20 19:18:12,032 - INFO - Uploading file: D:/Users/antoi/Downloads/People-Playground-SteamRIP.com.rar
+2025-09-20 19:18:52,104 - ERROR - Network error uploading D:/Users/antoi/Downloads/People-Playground-SteamRIP.com.rar: 413 Client Error: Request Entity Too Large for url: https://www.virustotal.com/vtapi/v2/file/scan
+2025-09-20 19:18:52,104 - ERROR - Error scanning D:/Users/antoi/Downloads/People-Playground-SteamRIP.com.rar: 413 Client Error: Request Entity Too Large for url: https://www.virustotal.com/vtapi/v2/file/scan
+2025-09-20 19:18:54,746 - INFO - Scan completed: 11 files scanned, 2 threats detected
+2025-11-10 17:38:41,725 - INFO - VTBatch GUI initialized
+2025-11-10 17:39:30,384 - INFO - Fetching report for resource: 44d88612fea8a8f36de82e1278abb02f
+2025-11-10 17:39:32,178 - INFO - Report fetched for 44d88612fea8a8f36de82e1278abb02f: Response code 1
+2025-11-10 17:39:33,592 - INFO - API key validated successfully
+2025-11-10 17:40:11,891 - INFO - Selected 2 files for scanning
+2025-11-10 17:40:20,792 - INFO - Selected 8 files for scanning
+2025-11-10 17:40:26,542 - INFO - Selected 16 files for scanning
+2025-11-10 17:40:42,978 - INFO - Selected 0 files for scanning
+2025-11-10 17:40:44,889 - INFO - Started scanning 26 files
+2025-11-10 17:40:44,990 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Read_Me_Instructions.txt
+2025-11-10 17:40:45,732 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Read_Me_Instructions.txt: 1a3623d7653b8b056d4c471412445ca22bc9e8708f6f64d062f4742cd654f570
+2025-11-10 17:40:55,733 - INFO - Fetching report for resource: 1a3623d7653b8b056d4c471412445ca22bc9e8708f6f64d062f4742cd654f570
+2025-11-10 17:40:56,085 - INFO - Report fetched for 1a3623d7653b8b056d4c471412445ca22bc9e8708f6f64d062f4742cd654f570: Response code 1
+2025-11-10 17:40:56,086 - INFO - Analysis complete: 0/62 detections, threat level: clean
+2025-11-10 17:41:11,088 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/STEAMRIP » Free Pre-installed Steam Games.url
+2025-11-10 17:41:11,486 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/STEAMRIP » Free Pre-installed Steam Games.url: 4572f3812daf7bcd347d1a36834c5a9fec1f530093adf688a6ecd9e6092cbf76
+2025-11-10 17:41:21,499 - INFO - Fetching report for resource: 4572f3812daf7bcd347d1a36834c5a9fec1f530093adf688a6ecd9e6092cbf76
+2025-11-10 17:41:21,741 - INFO - Report fetched for 4572f3812daf7bcd347d1a36834c5a9fec1f530093adf688a6ecd9e6092cbf76: Response code 1
+2025-11-10 17:41:21,742 - INFO - Analysis complete: 0/62 detections, threat level: clean
+2025-11-10 17:41:37,101 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/dotNetFx40_Full_setup.exe
+2025-11-10 17:41:38,101 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/dotNetFx40_Full_setup.exe: fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425
+2025-11-10 17:41:48,102 - INFO - Fetching report for resource: fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425
+2025-11-10 17:41:48,678 - INFO - Report fetched for fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425: Response code 1
+2025-11-10 17:41:48,678 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-11-10 17:42:03,718 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/dxwebsetup.exe
+2025-11-10 17:42:04,281 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/dxwebsetup.exe: 111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288
+2025-11-10 17:42:14,283 - INFO - Fetching report for resource: 111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288
+2025-11-10 17:42:14,582 - INFO - Report fetched for 111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288: Response code 1
+2025-11-10 17:42:14,590 - INFO - Analysis complete: 0/71 detections, threat level: clean
+2025-11-10 17:42:29,836 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/oalinst.exe
+2025-11-10 17:42:30,621 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/oalinst.exe: b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd
+2025-11-10 17:42:40,623 - INFO - Fetching report for resource: b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd
+2025-11-10 17:42:40,904 - INFO - Report fetched for b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd: Response code 1
+2025-11-10 17:42:40,905 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:42:56,295 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_2015-2019_x64.exe
+2025-11-10 17:43:02,590 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_2015-2019_x64.exe: b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52
+2025-11-10 17:43:12,593 - INFO - Fetching report for resource: b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52
+2025-11-10 17:43:12,874 - INFO - Report fetched for b6c82087a2c443db859fdbeaae7f46244d06c3f2a7f71c35e50358066253de52: Response code 1
+2025-11-10 17:43:12,876 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-11-10 17:43:29,353 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_2015-2019_x86.exe
+2025-11-10 17:43:34,888 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_2015-2019_x86.exe: ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6
+2025-11-10 17:43:44,891 - INFO - Fetching report for resource: ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6
+2025-11-10 17:43:45,146 - INFO - Report fetched for ac96016f1511ae3eb5ec9de04551146fe351b7f97858dcd67163912e2302f5d6: Response code 1
+2025-11-10 17:43:45,147 - INFO - Analysis complete: 0/66 detections, threat level: clean
+2025-11-10 17:44:00,271 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_x64.exe
+2025-11-10 17:44:03,417 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_x64.exe: b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023
+2025-11-10 17:44:13,419 - INFO - Fetching report for resource: b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023
+2025-11-10 17:44:13,728 - INFO - Report fetched for b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023: Response code 1
+2025-11-10 17:44:13,728 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:44:28,912 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_x86.exe
+2025-11-10 17:44:31,053 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/vcredist_x86.exe: 8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8
+2025-11-10 17:44:41,055 - INFO - Fetching report for resource: 8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8
+2025-11-10 17:44:41,322 - INFO - Report fetched for 8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8: Response code 1
+2025-11-10 17:44:41,323 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:44:56,593 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/xnafx40_redist.msi
+2025-11-10 17:44:59,922 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/_CommonRedist/xnafx40_redist.msi: e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7
+2025-11-10 17:45:09,924 - INFO - Fetching report for resource: e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7
+2025-11-10 17:45:10,212 - INFO - Report fetched for e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7: Response code 1
+2025-11-10 17:45:10,212 - INFO - Analysis complete: 0/63 detections, threat level: clean
+2025-11-10 17:45:25,243 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/DevIL.dll
+2025-11-10 17:45:27,135 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/DevIL.dll: 1d6f1b0bb50a3bc1b9c8d3f069adbcf454111c4bbf373064e6d580b9da52f1ce
+2025-11-10 17:45:37,137 - INFO - Fetching report for resource: 1d6f1b0bb50a3bc1b9c8d3f069adbcf454111c4bbf373064e6d580b9da52f1ce
+2025-11-10 17:45:37,397 - INFO - Report fetched for 1d6f1b0bb50a3bc1b9c8d3f069adbcf454111c4bbf373064e6d580b9da52f1ce: Response code 1
+2025-11-10 17:45:37,397 - INFO - Analysis complete: 0/71 detections, threat level: clean
+2025-11-10 17:45:52,455 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/discord_partner_sdk.dll
+2025-11-10 17:45:56,214 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/discord_partner_sdk.dll: 60eb823e8bfe0ac4734dddcda01050f2a8c92d19623b94cc31631b30f4d510f5
+2025-11-10 17:46:06,216 - INFO - Fetching report for resource: 60eb823e8bfe0ac4734dddcda01050f2a8c92d19623b94cc31631b30f4d510f5
+2025-11-10 17:46:06,422 - INFO - Report fetched for 60eb823e8bfe0ac4734dddcda01050f2a8c92d19623b94cc31631b30f4d510f5: Response code 1
+2025-11-10 17:46:06,422 - INFO - Analysis complete: 0/68 detections, threat level: clean
+2025-11-10 17:46:21,733 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ffmpeg.exe
+2025-11-10 17:46:38,210 - ERROR - Network error uploading D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ffmpeg.exe: 413 Client Error: Request Entity Too Large for url: https://www.virustotal.com/vtapi/v2/file/scan
+2025-11-10 17:46:38,210 - ERROR - Error scanning D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ffmpeg.exe: 413 Client Error: Request Entity Too Large for url: https://www.virustotal.com/vtapi/v2/file/scan
+2025-11-10 17:46:38,573 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmod.dll
+2025-11-10 17:46:40,017 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmod.dll: e78d09eafe87c4699e23e7b1fa88d99e4d031538c452d8647e3961bc104dbe09
+2025-11-10 17:46:50,020 - INFO - Fetching report for resource: e78d09eafe87c4699e23e7b1fa88d99e4d031538c452d8647e3961bc104dbe09
+2025-11-10 17:46:50,264 - INFO - Report fetched for e78d09eafe87c4699e23e7b1fa88d99e4d031538c452d8647e3961bc104dbe09: Response code 1
+2025-11-10 17:46:50,265 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:47:05,453 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmodstudio.dll
+2025-11-10 17:47:06,448 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmodstudio.dll: 489e8d08b760579a1974de3865a16c9c5e6dd989a09c831cf1c8c7db7c1ea50f
+2025-11-10 17:47:16,449 - INFO - Fetching report for resource: 489e8d08b760579a1974de3865a16c9c5e6dd989a09c831cf1c8c7db7c1ea50f
+2025-11-10 17:47:16,669 - INFO - Report fetched for 489e8d08b760579a1974de3865a16c9c5e6dd989a09c831cf1c8c7db7c1ea50f: Response code 1
+2025-11-10 17:47:16,669 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:47:31,731 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.exe
+2025-11-10 17:47:35,811 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.exe: df92461e7ef9e1af2dab7f36a62c362831fdc5f20a0f28bf28f2237ec317c6e8
+2025-11-10 17:47:45,815 - INFO - Fetching report for resource: df92461e7ef9e1af2dab7f36a62c362831fdc5f20a0f28bf28f2237ec317c6e8
+2025-11-10 17:47:46,124 - INFO - Report fetched for df92461e7ef9e1af2dab7f36a62c362831fdc5f20a0f28bf28f2237ec317c6e8: Response code 1
+2025-11-10 17:47:46,124 - INFO - Analysis complete: 1/72 detections, threat level: suspicious
+2025-11-10 17:48:01,426 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.rne
+2025-11-10 17:48:04,645 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.rne: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:48:14,650 - INFO - Fetching report for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:48:14,857 - INFO - Report fetched for 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45: Response code 1
+2025-11-10 17:48:14,858 - INFO - Analysis complete: 2/70 detections, threat level: low_risk
+2025-11-10 17:48:29,861 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILU.dll
+2025-11-10 17:48:30,347 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILU.dll: 183e7027a18255d0c7b396916bd4fbfed09b82e685d7c25dca2c1672abb078c5
+2025-11-10 17:48:40,349 - INFO - Fetching report for resource: 183e7027a18255d0c7b396916bd4fbfed09b82e685d7c25dca2c1672abb078c5
+2025-11-10 17:48:40,637 - INFO - Report fetched for 183e7027a18255d0c7b396916bd4fbfed09b82e685d7c25dca2c1672abb078c5: Response code 1
+2025-11-10 17:48:40,638 - INFO - Analysis complete: 0/73 detections, threat level: clean
+2025-11-10 17:48:55,641 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILUT.dll
+2025-11-10 17:48:56,526 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILUT.dll: 153c72b714ae52e731fb26044ab0907f9054a84b53f5db41fdf629906c3e93ee
+2025-11-10 17:49:04,600 - INFO - Requesting rescan for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:49:04,600 - INFO - Started rescan for Forts.rne
+2025-11-10 17:49:04,892 - INFO - Rescan requested for 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45: 1
+2025-11-10 17:49:06,527 - INFO - Fetching report for resource: 153c72b714ae52e731fb26044ab0907f9054a84b53f5db41fdf629906c3e93ee
+2025-11-10 17:49:06,750 - INFO - Report fetched for 153c72b714ae52e731fb26044ab0907f9054a84b53f5db41fdf629906c3e93ee: Response code 1
+2025-11-10 17:49:06,751 - INFO - Analysis complete: 0/73 detections, threat level: clean
+2025-11-10 17:49:21,756 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/lame_enc.dll
+2025-11-10 17:49:22,291 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/lame_enc.dll: 45739caa3f04f49e6b36cb65d360a656e71ed0f838f9d6cbac787e4557e7bfbe
+2025-11-10 17:49:32,293 - INFO - Fetching report for resource: 45739caa3f04f49e6b36cb65d360a656e71ed0f838f9d6cbac787e4557e7bfbe
+2025-11-10 17:49:32,430 - WARNING - Unexpected content type: text/html
+2025-11-10 17:49:32,431 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-11-10 17:49:34,893 - INFO - Fetching report for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:49:35,041 - WARNING - Unexpected content type: text/html
+2025-11-10 17:49:37,433 - INFO - Fetching report for resource: 45739caa3f04f49e6b36cb65d360a656e71ed0f838f9d6cbac787e4557e7bfbe
+2025-11-10 17:49:37,634 - INFO - Report fetched for 45739caa3f04f49e6b36cb65d360a656e71ed0f838f9d6cbac787e4557e7bfbe: Response code 1
+2025-11-10 17:49:37,635 - INFO - Analysis complete: 1/72 detections, threat level: suspicious
+2025-11-10 17:49:52,735 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LightFX.dll
+2025-11-10 17:49:53,031 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LightFX.dll: 4a52d8e4db0a6eebb12d14723a38fc8899e7e4a3e97c2557f049fcf825791fcc
+2025-11-10 17:49:55,048 - INFO - Fetching report for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:49:55,249 - INFO - Report fetched for 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45: Response code 1
+2025-11-10 17:50:03,033 - INFO - Fetching report for resource: 4a52d8e4db0a6eebb12d14723a38fc8899e7e4a3e97c2557f049fcf825791fcc
+2025-11-10 17:50:03,883 - INFO - Report fetched for 4a52d8e4db0a6eebb12d14723a38fc8899e7e4a3e97c2557f049fcf825791fcc: Response code 1
+2025-11-10 17:50:03,884 - INFO - Analysis complete: 0/71 detections, threat level: clean
+2025-11-10 17:50:15,374 - INFO - Fetching report for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:50:15,507 - WARNING - Unexpected content type: text/html
+2025-11-10 17:50:18,888 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LuaPlusC.exe
+2025-11-10 17:50:19,387 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LuaPlusC.exe: 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e
+2025-11-10 17:50:29,396 - INFO - Fetching report for resource: 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e
+2025-11-10 17:50:29,566 - WARNING - Unexpected content type: text/html
+2025-11-10 17:50:29,567 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-11-10 17:50:34,569 - INFO - Fetching report for resource: 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e
+2025-11-10 17:50:34,808 - WARNING - Unexpected content type: text/html
+2025-11-10 17:50:34,809 - WARNING - Report error (attempt 2): Unexpected response format: text/html
+2025-11-10 17:50:35,509 - INFO - Fetching report for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:50:35,652 - WARNING - Unexpected content type: text/html
+2025-11-10 17:50:39,810 - INFO - Fetching report for resource: 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e
+2025-11-10 17:50:39,992 - INFO - Report fetched for 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e: Response code 1
+2025-11-10 17:50:39,992 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:50:55,134 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_api64.dll
+2025-11-10 17:50:55,624 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_api64.dll: 1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3
+2025-11-10 17:50:55,653 - INFO - Fetching report for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 17:50:55,837 - INFO - Report fetched for 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45: Response code 1
+2025-11-10 17:50:55,838 - INFO - Analysis complete: 2/72 detections, threat level: low_risk
+2025-11-10 17:50:55,839 - INFO - Rescan completed for Forts.rne: 2/72 detections
+2025-11-10 17:51:05,625 - INFO - Fetching report for resource: 1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3
+2025-11-10 17:51:05,998 - INFO - Report fetched for 1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3: Response code 1
+2025-11-10 17:51:05,999 - INFO - Analysis complete: 1/72 detections, threat level: suspicious
+2025-11-10 17:51:21,029 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_emu.ini
+2025-11-10 17:51:21,673 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_emu.ini: 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec
+2025-11-10 17:51:31,673 - INFO - Fetching report for resource: 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec
+2025-11-10 17:51:31,806 - WARNING - Unexpected content type: text/html
+2025-11-10 17:51:31,807 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-11-10 17:51:36,808 - INFO - Fetching report for resource: 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec
+2025-11-10 17:51:36,962 - WARNING - Unexpected content type: text/html
+2025-11-10 17:51:36,963 - WARNING - Report error (attempt 2): Unexpected response format: text/html
+2025-11-10 17:51:41,964 - INFO - Fetching report for resource: 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec
+2025-11-10 17:51:42,170 - INFO - Report fetched for 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec: Response code 0
+2025-11-10 17:51:57,715 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steamclient64.dll
+2025-11-10 17:51:58,398 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steamclient64.dll: d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7
+2025-11-10 17:52:08,399 - INFO - Fetching report for resource: d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7
+2025-11-10 17:52:08,644 - INFO - Report fetched for d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7: Response code 1
+2025-11-10 17:52:08,644 - INFO - Analysis complete: 0/71 detections, threat level: clean
+2025-11-10 17:52:23,799 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/winmm.dll
+2025-11-10 17:52:24,354 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/winmm.dll: 59dc2762e9ee5b3c01e859ef1f9b04af948115158f9e390a964f3cd376f430be
+2025-11-10 17:52:34,355 - INFO - Fetching report for resource: 59dc2762e9ee5b3c01e859ef1f9b04af948115158f9e390a964f3cd376f430be
+2025-11-10 17:52:34,502 - WARNING - Unexpected content type: text/html
+2025-11-10 17:52:34,503 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-11-10 17:52:39,505 - INFO - Fetching report for resource: 59dc2762e9ee5b3c01e859ef1f9b04af948115158f9e390a964f3cd376f430be
+2025-11-10 17:52:39,747 - INFO - Report fetched for 59dc2762e9ee5b3c01e859ef1f9b04af948115158f9e390a964f3cd376f430be: Response code 1
+2025-11-10 17:52:39,747 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:57:55,307 - INFO - Scan stopped by user
+2025-11-10 17:58:04,087 - INFO - Selected 0 files for scanning
+2025-11-10 17:58:04,534 - INFO - Cleared files list and results
+2025-11-10 17:58:08,604 - INFO - Selected 16 files for scanning
+2025-11-10 17:58:10,096 - INFO - Started scanning 16 files
+2025-11-10 17:58:10,122 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/DevIL.dll
+2025-11-10 17:58:11,596 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/DevIL.dll: 1d6f1b0bb50a3bc1b9c8d3f069adbcf454111c4bbf373064e6d580b9da52f1ce
+2025-11-10 17:58:21,597 - INFO - Fetching report for resource: 1d6f1b0bb50a3bc1b9c8d3f069adbcf454111c4bbf373064e6d580b9da52f1ce
+2025-11-10 17:58:21,782 - INFO - Report fetched for 1d6f1b0bb50a3bc1b9c8d3f069adbcf454111c4bbf373064e6d580b9da52f1ce: Response code 1
+2025-11-10 17:58:21,784 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:58:36,847 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/discord_partner_sdk.dll
+2025-11-10 17:58:40,383 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/discord_partner_sdk.dll: 60eb823e8bfe0ac4734dddcda01050f2a8c92d19623b94cc31631b30f4d510f5
+2025-11-10 17:58:50,385 - INFO - Fetching report for resource: 60eb823e8bfe0ac4734dddcda01050f2a8c92d19623b94cc31631b30f4d510f5
+2025-11-10 17:58:50,736 - INFO - Report fetched for 60eb823e8bfe0ac4734dddcda01050f2a8c92d19623b94cc31631b30f4d510f5: Response code 1
+2025-11-10 17:58:50,737 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:59:06,095 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ffmpeg.exe
+2025-11-10 17:59:22,031 - ERROR - Network error uploading D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ffmpeg.exe: 413 Client Error: Request Entity Too Large for url: https://www.virustotal.com/vtapi/v2/file/scan
+2025-11-10 17:59:22,037 - ERROR - Error scanning D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ffmpeg.exe: 413 Client Error: Request Entity Too Large for url: https://www.virustotal.com/vtapi/v2/file/scan
+2025-11-10 17:59:22,063 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmod.dll
+2025-11-10 17:59:23,084 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmod.dll: e78d09eafe87c4699e23e7b1fa88d99e4d031538c452d8647e3961bc104dbe09
+2025-11-10 17:59:33,086 - INFO - Fetching report for resource: e78d09eafe87c4699e23e7b1fa88d99e4d031538c452d8647e3961bc104dbe09
+2025-11-10 17:59:33,392 - INFO - Report fetched for e78d09eafe87c4699e23e7b1fa88d99e4d031538c452d8647e3961bc104dbe09: Response code 1
+2025-11-10 17:59:33,392 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 17:59:48,405 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmodstudio.dll
+2025-11-10 17:59:49,400 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/fmodstudio.dll: 489e8d08b760579a1974de3865a16c9c5e6dd989a09c831cf1c8c7db7c1ea50f
+2025-11-10 17:59:59,402 - INFO - Fetching report for resource: 489e8d08b760579a1974de3865a16c9c5e6dd989a09c831cf1c8c7db7c1ea50f
+2025-11-10 17:59:59,628 - INFO - Report fetched for 489e8d08b760579a1974de3865a16c9c5e6dd989a09c831cf1c8c7db7c1ea50f: Response code 1
+2025-11-10 17:59:59,629 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 18:00:14,679 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.exe
+2025-11-10 18:00:18,331 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.exe: df92461e7ef9e1af2dab7f36a62c362831fdc5f20a0f28bf28f2237ec317c6e8
+2025-11-10 18:00:28,333 - INFO - Fetching report for resource: df92461e7ef9e1af2dab7f36a62c362831fdc5f20a0f28bf28f2237ec317c6e8
+2025-11-10 18:00:28,555 - INFO - Report fetched for df92461e7ef9e1af2dab7f36a62c362831fdc5f20a0f28bf28f2237ec317c6e8: Response code 1
+2025-11-10 18:00:28,555 - INFO - Analysis complete: 1/72 detections, threat level: suspicious
+2025-11-10 18:00:43,614 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.rne
+2025-11-10 18:00:47,179 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/Forts.rne: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 18:00:57,183 - INFO - Fetching report for resource: 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45
+2025-11-10 18:00:57,408 - INFO - Report fetched for 92c1e7fbea151d405098653d73c17524da66c4037d2ec1eeaf12c29d23c05d45: Response code 1
+2025-11-10 18:00:57,409 - INFO - Analysis complete: 2/72 detections, threat level: low_risk
+2025-11-10 18:01:12,413 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILU.dll
+2025-11-10 18:01:12,901 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILU.dll: 183e7027a18255d0c7b396916bd4fbfed09b82e685d7c25dca2c1672abb078c5
+2025-11-10 18:01:22,902 - INFO - Fetching report for resource: 183e7027a18255d0c7b396916bd4fbfed09b82e685d7c25dca2c1672abb078c5
+2025-11-10 18:01:26,396 - INFO - Report fetched for 183e7027a18255d0c7b396916bd4fbfed09b82e685d7c25dca2c1672abb078c5: Response code 1
+2025-11-10 18:01:26,397 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 18:01:41,399 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILUT.dll
+2025-11-10 18:01:42,220 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/ILUT.dll: 153c72b714ae52e731fb26044ab0907f9054a84b53f5db41fdf629906c3e93ee
+2025-11-10 18:01:52,245 - INFO - Fetching report for resource: 153c72b714ae52e731fb26044ab0907f9054a84b53f5db41fdf629906c3e93ee
+2025-11-10 18:01:52,473 - INFO - Report fetched for 153c72b714ae52e731fb26044ab0907f9054a84b53f5db41fdf629906c3e93ee: Response code 1
+2025-11-10 18:01:52,474 - INFO - Analysis complete: 0/70 detections, threat level: clean
+2025-11-10 18:02:07,483 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/lame_enc.dll
+2025-11-10 18:02:08,112 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/lame_enc.dll: 45739caa3f04f49e6b36cb65d360a656e71ed0f838f9d6cbac787e4557e7bfbe
+2025-11-10 18:02:18,114 - INFO - Fetching report for resource: 45739caa3f04f49e6b36cb65d360a656e71ed0f838f9d6cbac787e4557e7bfbe
+2025-11-10 18:02:18,292 - INFO - Report fetched for 45739caa3f04f49e6b36cb65d360a656e71ed0f838f9d6cbac787e4557e7bfbe: Response code 1
+2025-11-10 18:02:18,292 - INFO - Analysis complete: 1/72 detections, threat level: suspicious
+2025-11-10 18:02:33,296 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LightFX.dll
+2025-11-10 18:02:33,634 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LightFX.dll: 4a52d8e4db0a6eebb12d14723a38fc8899e7e4a3e97c2557f049fcf825791fcc
+2025-11-10 18:02:43,635 - INFO - Fetching report for resource: 4a52d8e4db0a6eebb12d14723a38fc8899e7e4a3e97c2557f049fcf825791fcc
+2025-11-10 18:02:45,500 - INFO - Report fetched for 4a52d8e4db0a6eebb12d14723a38fc8899e7e4a3e97c2557f049fcf825791fcc: Response code 1
+2025-11-10 18:02:45,500 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 18:03:00,506 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LuaPlusC.exe
+2025-11-10 18:03:00,874 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/LuaPlusC.exe: 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e
+2025-11-10 18:03:10,876 - INFO - Fetching report for resource: 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e
+2025-11-10 18:03:11,118 - INFO - Report fetched for 4c107dfc894a38515c7a8abce34454065700f8e835a740c345053f5ffcfca56e: Response code 1
+2025-11-10 18:03:11,118 - INFO - Analysis complete: 0/72 detections, threat level: clean
+2025-11-10 18:03:26,123 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_api64.dll
+2025-11-10 18:03:28,967 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_api64.dll: 1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3
+2025-11-10 18:03:38,968 - INFO - Fetching report for resource: 1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3
+2025-11-10 18:03:39,467 - INFO - Report fetched for 1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3: Response code 1
+2025-11-10 18:03:39,467 - INFO - Analysis complete: 1/66 detections, threat level: suspicious
+2025-11-10 18:03:54,474 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_emu.ini
+2025-11-10 18:03:54,839 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steam_emu.ini: 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec
+2025-11-10 18:04:04,841 - INFO - Fetching report for resource: 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec
+2025-11-10 18:04:05,073 - INFO - Report fetched for 20203075990aca0a3bbf934b02d665cdd62f6b19aa7d0c5faf62dbba1fb633ec: Response code 1
+2025-11-10 18:04:05,074 - INFO - Analysis complete: 0/61 detections, threat level: clean
+2025-11-10 18:04:20,084 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steamclient64.dll
+2025-11-10 18:04:20,999 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/steamclient64.dll: d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7
+2025-11-10 18:04:31,000 - INFO - Fetching report for resource: d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7
+2025-11-10 18:04:31,148 - WARNING - Unexpected content type: text/html
+2025-11-10 18:04:31,148 - WARNING - Report error (attempt 1): Unexpected response format: text/html
+2025-11-10 18:04:36,151 - INFO - Fetching report for resource: d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7
+2025-11-10 18:04:36,317 - WARNING - Unexpected content type: text/html
+2025-11-10 18:04:36,318 - WARNING - Report error (attempt 2): Unexpected response format: text/html
+2025-11-10 18:04:41,320 - INFO - Fetching report for resource: d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7
+2025-11-10 18:04:41,650 - INFO - Report fetched for d51356643a1610caefb84b0170905a1b77e798311e641f070bdebf94dbe2f7b7: Response code 1
+2025-11-10 18:04:41,651 - INFO - Analysis complete: 0/71 detections, threat level: clean
+2025-11-10 18:04:56,659 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/winmm.dll
+2025-11-10 18:04:57,354 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/games/Jeux/GameFiles/Cracked/FORTS-SteamRIP.com/Forts/winmm.dll: 59dc2762e9ee5b3c01e859ef1f9b04af948115158f9e390a964f3cd376f430be
+2025-11-10 18:05:07,356 - INFO - Fetching report for resource: 59dc2762e9ee5b3c01e859ef1f9b04af948115158f9e390a964f3cd376f430be
+2025-11-10 18:05:07,583 - INFO - Report fetched for 59dc2762e9ee5b3c01e859ef1f9b04af948115158f9e390a964f3cd376f430be: Response code 1
+2025-11-10 18:05:07,584 - INFO - Analysis complete: 0/64 detections, threat level: clean
+2025-11-13 22:40:08,179 - INFO - VTBatch GUI initialized
+2025-11-13 22:40:32,457 - INFO - API key saved successfully
+2025-11-13 22:40:33,418 - INFO - Fetching report for resource: 44d88612fea8a8f36de82e1278abb02f
+2025-11-13 22:40:34,933 - INFO - Report fetched for 44d88612fea8a8f36de82e1278abb02f: Response code 1
+2025-11-13 22:40:36,079 - INFO - API key validated successfully
+2025-11-13 22:40:36,092 - INFO - API key saved successfully
+2025-11-13 22:40:39,884 - INFO - Selected 6 files for scanning
+2025-11-13 22:40:41,009 - INFO - Started scanning 6 files
+2025-11-13 22:40:41,132 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/Antoine/Ecole/2025-2026/EDTCommun/EDT_Copains.pdf
+2025-11-13 22:40:41,730 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/Antoine/Ecole/2025-2026/EDTCommun/EDT_Copains.pdf: 9086f65e4cdb7ddc6797fdb4bc2752072a464aaae05e760673534f17d24849f8
+2025-11-13 22:40:51,733 - INFO - Fetching report for resource: 9086f65e4cdb7ddc6797fdb4bc2752072a464aaae05e760673534f17d24849f8
+2025-11-13 22:40:51,921 - INFO - Report fetched for 9086f65e4cdb7ddc6797fdb4bc2752072a464aaae05e760673534f17d24849f8: Response code 0
+2025-11-13 22:41:07,024 - INFO - Uploading file: D:/Users/antoi/OneDrive/Bureau/Antoine/Ecole/2025-2026/EDTCommun/Emploi du temps annuel de BOURDAIS Laélie - 2025-2026-1.pdf
+2025-11-13 22:41:07,687 - INFO - Upload successful for D:/Users/antoi/OneDrive/Bureau/Antoine/Ecole/2025-2026/EDTCommun/Emploi du temps annuel de BOURDAIS Laélie - 2025-2026-1.pdf: 0e52f7f15f9a5b9aa2ce77dbff2e06187e48d5309b752a016ffac958d1b6bb49
+2025-11-13 22:41:17,688 - INFO - Fetching report for resource: 0e52f7f15f9a5b9aa2ce77dbff2e06187e48d5309b752a016ffac958d1b6bb49
+2025-11-13 22:41:17,872 - INFO - Report fetched for 0e52f7f15f9a5b9aa2ce77dbff2e06187e48d5309b752a016ffac958d1b6bb49: Response code 0
+2025-11-13 22:41:30,115 - INFO - Scan stopped by user
