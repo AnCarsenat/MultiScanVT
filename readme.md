@@ -61,6 +61,10 @@ L'application comprend trois onglets principaux :
 
 ## 🔧 Installation
 
+### Pour Windows
+
+Naviguez dans la section `Releases` et téléchargez la dernière version (fichier `.zip` ou `MultiScanVT.exe`). Extrayez l'archive si nécessaire, puis exécutez l'application (.exe)
+
 ### Prérequis
 
 - Python 3.7 ou supérieur
